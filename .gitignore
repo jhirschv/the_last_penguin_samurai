@@ -1,0 +1,29 @@
+# Godot 4.x
+.godot/
+# (Harmless on 4, useful if you ever open in 3.x)
+.import/
+
+# Android (prefer ignoring build artifacts, not the whole project)
+android/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+
+# Exported builds / packages (optional)
+export/
+exports/
+*.pck
+*.zip
+*.apk
+*.aab
+
+# VS Code (keep shareable project config)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+
