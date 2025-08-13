@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://sieh87e5238w"]
+
+[ext_resource type="Texture2D" uid="uid://bj4kti83txma1" path="res://snowpile.png" id="1_5eiat"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5eiat"]
+size = Vector2(80, 20)
+
+[node name="SnowPile" type="StaticBody2D"]
+
+[node name="Snowpile" type="Sprite2D" parent="."]
+position = Vector2(1, -42)
+texture = ExtResource("1_5eiat")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, -5)
+shape = SubResource("RectangleShape2D_5eiat")
